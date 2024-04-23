@@ -5,7 +5,7 @@
   "main": "cypress.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "runcypress": "npx cypress run --config-file=./config/cypress-junit-config.js"
+    "cypress:test": "npx cypress run --config-file=./config/cypress-junit-config.js"
   },
   "keywords": [],
   "author": "",
